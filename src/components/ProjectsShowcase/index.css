@@ -1,0 +1,77 @@
+.nav-bar {
+  background-color: #f1f5f9;
+  padding: 20px;
+}
+
+.website-logo {
+  width: 15%;
+  margin-left: 50px;
+}
+
+.projects-container {
+  padding: 50px;
+}
+
+select {
+  height: 40px;
+  width: 350px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 7px;
+  padding-left: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 1px #cbd5e1 solid;
+}
+
+ul {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.failure-image {
+  width: 50%;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 40px;
+  line-height: 0.5;
+  margin-top: 50px;
+}
+
+.failure-description {
+  color: #475569;
+  font-size: 20px;
+}
+
+.retry-button {
+  background-color: #328af2;
+  height: 40px;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  color: #e2e8f0;
+  font-weight: bold;
+  cursor: pointer;
+}

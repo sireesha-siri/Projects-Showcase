@@ -1,0 +1,24 @@
+li {
+  list-style-type: none;
+  width: 18vw;
+  margin: 20px;
+}
+
+.product-card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+
+  border-radius: 10px;
+}
+
+.product-image {
+  height: 100px;
+  width: 100%;
+}
+
+.product-heading {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #475569;
+}
